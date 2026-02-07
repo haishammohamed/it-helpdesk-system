@@ -26,6 +26,15 @@ It checks whether a user role is allowed to perform an action and returns **ALLO
    - Is the action allowed for this role?
 6. Program prints ALLOW/DENY and updates attempt counters.
 
+## AI-assisted development & testing
+
+This project uses automated tests (`unittest`) to verify behavior.
+Changes and new features (e.g. adding a `manager` role) were implemented
+with AI assistance and accepted only after all tests passed.
+
+This demonstrates controlled use of AI with verification, not blind code generation.
+
+
 ## Run
 ```bash
 python accessgate.py
